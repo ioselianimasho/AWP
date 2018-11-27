@@ -1,38 +1,85 @@
 header {
   text-align: center;
+  color: white;
+  
+}
+.jumbotron {
   background: url("faces.jpg");
   background-size: cover;
+  background-attachment: fixed;
+  min-height: 400px;
 }
-a {
-  color: white;
+/* a {
+  color: #FFF;
+  font:Times;
+} */
+article {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30;
 }
 h1 {
   font-size: 70px;
+  font: Garamond;
+  color: white;
+  text-decoration-color: white;
+
 }
-img {
-   margin: 40px 0px 0px 0px;
-   border: 10px solid black;
-   border-radius: 20px;
+h2 {
+  text-align: center;
+  font:Garamond;
 }
-ul {
+
+/* ul {
    padding: 10px;
-   background: rgb(128,0,0, 0.7);
+
+} */
+.main_logo{
+  margin: 40px 0px 0px 0px;
+  border: 10px solid black;
+  border-radius: 20px;
+
 }
-li {
+/* li {
    display: inline;
    padding: 0px 10px 0px 10px;
-}
+} */
 article {
-   max-width: 500px;
+   max-width: 1000px;
    padding: 20px;
    margin: 0 auto;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30;
 }
 @media(max-width:500px) {
   h1 {
     font-size: 36px;
   }
-  li {
+  /* li {
     display: block;
     padding: 5px;
-  }
+  } */
+}
+input {
+      border: 0;
+      padding: 10px;
+      font-size: 18px;
+    }
+/* button {
+  background: rgb(128,0,0, 0.7);
+  color: white;
+} */
+form {
+  text-align: center;
+}
+label {
+  font-size: 36px;
+  font-style: bold;
+  font: Garamond;
+  color: rgb(128,0,0);
+}
+body {
+  text-align: center;
+  font: Comic;
 }
